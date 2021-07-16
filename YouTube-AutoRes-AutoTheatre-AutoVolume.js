@@ -175,7 +175,7 @@
             }
         }
         
-        window.removeEventListener("yt-navigate-finish", mainThread, true);
+        //window.removeEventListener("yt-navigate-finish", mainThread, true);
     }
 
     window.addEventListener("yt-navigate-finish", mainThread, true);
