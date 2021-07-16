@@ -3,7 +3,7 @@
 // @namespace    https://github.com/loqrin
 // @version      1.0
 // @description  Automatically sets YouTube's player to desired resolution, theatre mode and volume.
-// @author       You
+// @author       Loqrin
 // @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?domain=tampermonkey.net
 // @grant        none
