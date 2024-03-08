@@ -60,7 +60,7 @@
             if (page) {
                 if (page.wrappedJSObject) {
                     try {
-                        page.wrappedJSObject.theaterModeChanged_(state);
+                        page.wrappedJSObject.onTheaterReduxValueUpdate(state);
 
                         console.log(`YouTube Auto | Setting video theatre mode state: ${state}`);
                     } catch (e) {
@@ -68,7 +68,7 @@
                     }
                 } else {
                     try {
-                        page.theaterModeChanged_(state);
+                        page.onTheaterReduxValueUpdate(state);
 
                         console.log(`YouTube Auto | Setting video theatre mode state: ${state}`);
                     } catch (e) {
